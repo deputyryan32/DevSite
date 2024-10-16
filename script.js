@@ -11,9 +11,15 @@ fetch('projects.json')
             const card = document.createElement('div');
             card.classList.add('card');
 
-            const image = document.createElement('img');
-            image.src = project.image;
-            card.appendChild(image);
+            // Handle image display based on the disableImage property
+            if (!project.disableImage) {
+                const image = document.createElement('img');
+                image.src = project.image || 'https://via.placeholder.com/150'; // Use a default placeholder if no image is provided
+                image.onerror = () => {
+                    image.src = 'https://via.placeholder.com/150'; // Use a default placeholder if image fails to load
+                };
+                card.appendChild(image);
+            }
 
             const title = document.createElement('div');
             title.classList.add('card-title');

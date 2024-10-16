@@ -4,25 +4,29 @@
             "name": "Project A",
             "description": "Description for Project A",
             "image": "https://via.placeholder.com/150",
-            "status": "To Do"
+            "status": "To Do",
+            "disableImage": true
         },
         {
             "name": "Project B",
             "description": "Description for Project B",
-            "image": "https://via.placeholder.com/150",
-            "status": "In Progress"
+            "image": "https://invalid-url.com/image.png", 
+            "status": "In Progress",
+            "disableImage": true
         },
         {
             "name": "Project C",
             "description": "Description for Project C",
             "image": "https://via.placeholder.com/150",
-            "status": "Done"
+            "status": "Done",
+            "disableImage": true 
         },
         {
             "name": "Project D",
             "description": "Description for Project D",
-            "image": "https://via.placeholder.com/150",
-            "status": "Outdated/Needs Work"
+            "image": "https://i.ibb.co/R3q4V2c/Deputy-Ryan.webp",
+            "status": "Outdated/Needs Work",
+            "disableImage": false
         }
     ]
 }
