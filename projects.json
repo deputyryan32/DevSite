@@ -1,0 +1,28 @@
+{
+    "projects": [
+        {
+            "name": "Project A",
+            "description": "Description for Project A",
+            "image": "https://via.placeholder.com/150",
+            "status": "To Do"
+        },
+        {
+            "name": "Project B",
+            "description": "Description for Project B",
+            "image": "https://via.placeholder.com/150",
+            "status": "In Progress"
+        },
+        {
+            "name": "Project C",
+            "description": "Description for Project C",
+            "image": "https://via.placeholder.com/150",
+            "status": "Done"
+        },
+        {
+            "name": "Project D",
+            "description": "Description for Project D",
+            "image": "https://via.placeholder.com/150",
+            "status": "Outdated/Needs Work"
+        }
+    ]
+}

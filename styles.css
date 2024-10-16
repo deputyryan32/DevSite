@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    margin: 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.roadmap-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.list {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    width: 22%;
+    padding: 15px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+.list:hover {
+    transform: scale(1.02);
+}
+
+h2 {
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0;
+}
+
+#toDo {
+    background-color: #ffcc00; /* Yellow */
+}
+
+#inProgress {
+    background-color: #007bff; /* Blue */
+}
+
+#done {
+    background-color: #28a745; /* Green */
+}
+
+#outdated {
+    background-color: #dc3545; /* Red */
+}
+
+.list-items {
+    margin-top: 15px;
+}
+
+.card {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.card:hover {
+    background-color: #eaeaea;
+    transform: translateY(-2px);
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #333;
+}
+
+.card-desc {
+    font-size: 0.9em;
+    color: #555;
+}
