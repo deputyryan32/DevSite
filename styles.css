@@ -1,24 +1,22 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #e4e4e4;
     margin: 0;
     padding: 0;
     text-align: center;
 }
 
 h1 {
-    background-color: #333;
+    background-color: #0079bf;
     color: white;
     padding: 20px;
     margin: 0;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
 
 .roadmap-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 20px;
-    flex-wrap: wrap;
 }
 
 .list {
@@ -27,35 +25,14 @@ h1 {
     width: 22%;
     padding: 15px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    transition: transform 0.2s;
+    border-radius: 6px;
 }
 
-.list:hover {
-    transform: scale(1.02);
-}
-
-h2 {
-    color: #fff;
-    padding: 10px;
-    border-radius: 5px;
-    margin: 0;
-}
-
-#toDo {
-    background-color: #ffcc00; /* Yellow */
-}
-
-#inProgress {
-    background-color: #007bff; /* Blue */
-}
-
-#done {
-    background-color: #28a745; /* Green */
-}
-
-#outdated {
-    background-color: #dc3545; /* Red */
+.list h2 {
+    color: #0079bf;
+    font-size: 1.5em;
+    border-bottom: 2px solid #0079bf;
+    padding-bottom: 10px;
 }
 
 .list-items {
@@ -75,7 +52,7 @@ h2 {
 
 .card:hover {
     background-color: #eaeaea;
-    transform: translateY(-2px);
+    transform: translateY(-1px);
 }
 
 .card img {

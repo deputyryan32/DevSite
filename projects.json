@@ -3,23 +3,23 @@
         {
             "name": "Project A",
             "description": "Description for Project A",
-            "image": "https://via.placeholder.com/150",
+            "image": "https://i.ibb.co/R3q4V2c/Deputy-Ryan.webp",
             "status": "To Do",
-            "disableImage": true
+            "disableImage": false
         },
         {
             "name": "Project B",
             "description": "Description for Project B",
-            "image": "https://invalid-url.com/image.png", 
+            "image": "https://i.ibb.co/R3q4V2c/Deputy-Ryan.webp",
             "status": "In Progress",
-            "disableImage": true
+            "disableImage": false
         },
         {
             "name": "Project C",
             "description": "Description for Project C",
-            "image": "https://via.placeholder.com/150",
+            "image": "https://i.ibb.co/R3q4V2c/Deputy-Ryan.webp",
             "status": "Done",
-            "disableImage": true 
+            "disableImage": true
         },
         {
             "name": "Project D",

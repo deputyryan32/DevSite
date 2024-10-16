@@ -14,7 +14,7 @@ fetch('projects.json')
             // Handle image display based on the disableImage property
             if (!project.disableImage) {
                 const image = document.createElement('img');
-                image.src = project.image || 'https://via.placeholder.com/150'; // Use a default placeholder if no image is provided
+                image.src = project.image || 'https://via.placeholder.com/150'; // Default placeholder
                 image.onerror = () => {
                     image.src = 'https://via.placeholder.com/150'; // Use a default placeholder if image fails to load
                 };
