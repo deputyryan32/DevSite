@@ -55,7 +55,14 @@ projects.forEach(project => {
     desc.textContent = project.description;
     card.appendChild(desc);
 
+    // Determine the list ID based on the project status
+    const listId = project.status.toLowerCase().replace(' ', '');
+    
     // Add the card to the appropriate list based on status
-    const listElement = document.getElementById(project.status.toLowerCase().replace(' ', ''));
-    listElement.querySelector('.list-items').appendChild(card);
+    const listElement = document.getElementById(listId);
+    if (listElement) {
+        listElement.querySelector('.list-items').appendChild(card);
+    } else {
+        console.error(`List with ID "${listId}" does not exist.`);
+    }
 });
